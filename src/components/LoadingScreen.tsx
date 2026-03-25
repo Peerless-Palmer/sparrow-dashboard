@@ -27,7 +27,7 @@ export default function LoadingScreen({ onFileLoad }: LoadingScreenProps) {
         <label className="inline-block cursor-pointer">
           <input
             type="file"
-            accept=".json"
+            accept=".json,.mv"
             onChange={handleFileSelect}
             className="hidden"
           />

@@ -46,7 +46,7 @@ function App() {
       setWallet(data);
       setError(null);
     } catch (err) {
-      setError('Failed to parse wallet file. Please ensure it is a valid JSON file.');
+      setError('Failed to parse wallet file. Please ensure it is a valid Sparrow wallet file (.json or .mv format).');
       console.error('Parse error:', err);
     }
   };
